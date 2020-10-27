@@ -7,7 +7,7 @@
 
 I put here all my C++ tasks from IT classes in my school. Algorithms, data structures - all of these would be here.
 
-## How doest it work?
+## How does it work?
 
 I've created a simple bash script - `build.sh`. Given program name (for example `foo`), it compiles the program (from `src/foo.cpp` file) and if given the `--run` flag, it automatically runs the compiled program (from `build/foo.out`).
 
