@@ -1,6 +1,5 @@
 #include <iostream>
-
-float pi = 3.14;
+#include <math.h>
 
 int main()
 {
@@ -15,7 +14,7 @@ int main()
     return 1;
   }
 
-  std::cout << "Długość: " << 2 * pi * r;
+  std::cout << "Długość: " << 2 * M_PI * r;
 
   return 0;
 }
