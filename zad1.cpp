@@ -2,7 +2,14 @@
 
 int main()
 {
-  std::cout << "hello world";
+  float a, b;
+
+  std::cout << "Podaj a: ";
+  std::cin >> a;
+  std::cout << "Podaj b: ";
+  std::cin >> b;
+
+  std::cout << "a * b = " << a * b;
 
   return 0;
 }
