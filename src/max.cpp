@@ -8,7 +8,7 @@ int main()
 
   max = a > b ? a : b;
 
-  std::cout << "Większa liczba: " << max;
+  std::cout << "Wieksza liczba: " << max;
 
   return 0;
 }
