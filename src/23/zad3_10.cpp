@@ -6,7 +6,7 @@ int main()
 {
   bool finish = false;
 
-  time_t now = time(0);
+  time_t now;
 
   srand(time(NULL));
   int num;
@@ -26,6 +26,7 @@ int main()
       std::cout << "Dane ucznia\nImię:      Adam\nNazwisko:  Siekierski\nKlasa:     2C\n";
       break;
     case 2:
+      now = time(0);
       std::cout << "Obecna data i godzina: " << ctime(&now) << std::endl;
       break;
     case 3:
