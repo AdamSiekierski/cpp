@@ -23,7 +23,7 @@ int main()
     switch (opt)
     {
     case 1:
-      std::cout << "Dane ucznia\n";
+      std::cout << "Dane ucznia\nImię:      Adam\nNazwisko:  Siekierski\nKlasa:     2C\n";
       break;
     case 2:
       std::cout << "Obecna data i godzina: " << ctime(&now) << std::endl;
